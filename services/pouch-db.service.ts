@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import PouchDB from 'pouchdb';
+import wordInterface from 'src/app/interfaces/wordsInterface';
 
 
 @Injectable({
@@ -13,11 +14,26 @@ export class PouchDBService {
     this.pouchDB = new PouchDB('words.db');
   }
 
-  addWord(word: string, meaning: string){
-    console.log(word, meaning);
-  //   this.pouchDB.put({
-  //     _id: word,
-  //     meaning: meaning
-  //   });
-   }
+  insertWord(word: string, meaning: string){
+    this.pouchDB.put({
+      _id: word,
+      meaning: meaning,
+    });
+  }
+
+  getWords(){
+    this.pouchDB.allDocs({
+      include_docs: true,
+      attachments: true
+    }).then(function (result) {
+      // handle result
+      let test: Object = result;
+      console.log(this.test); 
+      return result;
+    }).catch(function (err) {
+      console.log(err);
+      return err;
+    });
+
+  }
 }
