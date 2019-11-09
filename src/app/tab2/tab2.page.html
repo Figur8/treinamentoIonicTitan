@@ -16,15 +16,19 @@
         <ion-input name="meaning" [(ngModel)]="meaning"></ion-input>
     </ion-item>
     <div class="welcome" text-center padding-top="5%">
-        <ion-button text-align=center (click)=createPouchDB()>
+        <ion-button text-align=center (click)=sendForRegisterWord()>
             <ion-icon name="folder-open"></ion-icon>
             Registrar
         </ion-button>
+        <ion-button text-align=center (click)=sendForDeleteWord()>
+            <ion-icon name="folder-open"></ion-icon>
+            Delete
+        </ion-button>
     </div>
     <div class="list">
-        <ion-list *ngFor="let item of results">
+        <ion-list *ngFor="let item of resultados">
             <ion-item>
-                <ion-label>{{ item.name }}
+                <ion-label>{{ item }}
                 </ion-label>
                 <ion-button color="warning">
                     <ion-icon name="refresh-circle"></ion-icon>

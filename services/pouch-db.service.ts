@@ -6,18 +6,41 @@ import PouchDB from 'pouchdb';
   providedIn: 'root'
 })
 export class PouchDBService {
-  public  pouchDB: any;
+  private docs: any = {};
+  public pouchDB: any;
+  private teste: Object;
   constructor() {
   }
-  createPouchDB(){
+  createPouchDB() {
     this.pouchDB = new PouchDB('words.db');
   }
 
-  addWord(word: string, meaning: string){
-    console.log(word, meaning);
-  //   this.pouchDB.put({
-  //     _id: word,
-  //     meaning: meaning
-  //   });
-   }
+  insertWord(word: string, meaning: string) {
+    this.pouchDB.put({
+      _id: word,
+      meaning: meaning,
+    }).then(() => {
+      this.getWords();
+    });
+  }
+
+  deleteWord(word: string) {
+    this.pouchDB.get(word).then((doc) => {
+      return this.pouchDB.remove(doc);
+    }).then(() => {
+      this.getWords();
+    });
+  }
+
+  getWords() {
+    this.pouchDB.allDocs({
+      include_docs: true,
+    }).then((result) => {
+      this.docs = result.rows.map(row => {
+        return row.doc.meaning;
+      });
+      console.log(this.docs);
+
+    })
+  }
 }
