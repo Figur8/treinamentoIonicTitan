@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-  
+  private exibicao: Object;
   public word: string = "";
   public meaning: string = "";
 
@@ -18,10 +18,20 @@ export class Tab2Page {
   sendForRegisterWord() {
     console.log(this.word, this.meaning);
     this.pouch.insertWord(this.word, this.meaning);
+    this.updateList();
   }
-  sendForDeleteWord() {
-    console.log(this.word);
-    this.pouch.deleteWord(this.word);
+  sendForDeleteWord(word) {
+    console.log(word);
+    this.pouch.deleteWord(word);
+    this.updateList();
+    delete this.exibicao
+  }
+
+  updateList(){
+    this.pouch.getWords().then((docs) => {
+      this.exibicao = docs;
+      console.log(this.exibicao);
+    });
   }
   
 }

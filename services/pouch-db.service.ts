@@ -32,15 +32,16 @@ export class PouchDBService {
     });
   }
 
-  getWords() {
-    this.pouchDB.allDocs({
+  getWords(): Promise<any>{
+    return this.pouchDB.allDocs({
       include_docs: true,
     }).then((result) => {
       this.docs = result.rows.map(row => {
-        return row.doc.meaning;
+        return row.doc;
       });
-      console.log(this.docs);
+      return this.docs;
 
     })
+    console.log(this.docs);
   }
 }
