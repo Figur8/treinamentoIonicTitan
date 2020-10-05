@@ -27,6 +27,7 @@
     "@types/pouchdb": "^6.4.0",
     "com.telerik.plugins.nativepagetransitions": "^0.6.5",
     "core-js": "^2.5.4",
+    "ionic-cli": "0.0.0",
     "pouchdb": "^7.1.1",
     "pouchdb-browser": "^7.1.1",
     "rxjs": "~6.5.1",
