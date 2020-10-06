@@ -59,7 +59,7 @@ Use Gitpod, a free online dev environment for GitHub.
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Figur8/treinamentoIonicTitan.git)
 
 ```
-cd "Diretory of your preference"
+cd "Directory of your preference"
 git clone https://github.com/Suspir0n/treinamentoIonicTitan.git
 ```
 
