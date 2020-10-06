@@ -65,7 +65,7 @@ git clone https://github.com/Suspir0n/treinamentoIonicTitan.git
 
 ### Construction
 
-To build the project with Ionic, execute the commands below:
+To execute a ionic project, execute the commands below:
 
 ```
 npm install -g ionic
