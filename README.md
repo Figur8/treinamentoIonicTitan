@@ -87,7 +87,7 @@ Lastly:
 cd trainingIonic
 ionic serve
 ```
-The "ionic serves" command is to run your project and show it in your default browser.
+The "ionic serve" command is to run your project and show it in your default browser.
 
 Don't forget about pouchDB:
 ```
