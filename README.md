@@ -1,5 +1,11 @@
-#  NoiteDev
-[![Build Status](https://travis-ci.org/condessalovelace/mavenquickstart.svg?branch=master)](https://travis-ci.org/condessalovelace/mavenquickstart) ![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=br.com%3Amavenquickstart&metric=alert_status)
+<p align="center">
+  <a href="http://ant.design">
+    <img width="800" src="./src/assets/prototype-001.png">
+  </a>
+</p>
+
+<h1 align="center"> Ionic training for the <a href="https://www.linkedin.com/company/ufbatitan/"> titan devs! </a> </h1>
+
 
 ## Welcome to my repository
 
