@@ -20,7 +20,8 @@ This project illustrates an example of a simple application for storing portugue
 
 ## What is ionic ?
 
-Is a set of tools for developing a hybrid application, they are: AngularJs, Html, CSS, Cordova, Js, TypeScript, SCSS among others.
+Is a set of tools for developing a hybrid application.
+For more information read the [ionic documentation](https://ionicframework.com/docs)
 
 ## Training Scope
 
