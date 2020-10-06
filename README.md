@@ -117,7 +117,7 @@ To execute the project, it is necessary to use VsCode or an IDE of your preferen
 
 ## Contributions
 
-Contributions are always welcome! I hope I have helped someone in need.
+Contributions are always welcome! I hope that it will help someone!
 
 ## Additional Information
 
