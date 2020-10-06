@@ -114,4 +114,4 @@ Contributions are always welcome! I hope I have helped someone in need.
 
 If you want more details about each line of code, visit this site here
 
-- [Ismael Carvalho: Slide explaining each part of the code how it works] (https://slides.com/ismaelcarvalho/deck-1)
+- [Ismael Carvalho: Slide explaining each part of the code how it works](https://slides.com/ismaelcarvalho/deck-1)
