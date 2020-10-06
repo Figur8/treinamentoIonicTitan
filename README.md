@@ -7,9 +7,6 @@
 <h1 align="center"> Ionic training for the <a href="https://www.linkedin.com/company/ufbatitan/"> titan devs! </a> </h1>
 
 
-## Welcome to my repository
-
-![prototype-003](./src/assets/prototype-003.png)
 
 ## Description 
 
