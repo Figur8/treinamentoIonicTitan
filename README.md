@@ -57,7 +57,7 @@ To run the project, you will need to install the following programs:
 Use Gitpod, a free online dev environment for GitHub.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Figur8/treinamentoIonicTitan.git)
-
+Or use code locally using:
 ```
 cd "Directory of your preference"
 git clone https://github.com/Suspir0n/treinamentoIonicTitan.git
