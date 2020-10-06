@@ -25,7 +25,7 @@ For more information read the [ionic documentation](https://ionicframework.com/d
 
 ## Training Scope
 
-The purpose of the training is to demonstrate basic things of the ionic, such as:
+The purpose of the training is to demonstrate ionic basic usage, such as:
 
 - Understand what it is __Ionic__, __Cordova__ and __Webview__.
 - Create a project
