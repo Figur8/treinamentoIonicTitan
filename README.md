@@ -13,7 +13,7 @@
 
 ## Description 
 
-This project illustrates an example of a simple application for storing portuguese to english words with pouchDB, a free and offline database for learning.
+This project illustrates an example of a simple application for storing words in Portuguese and your respective English translate using pouchDB, for be a free and offline database for learning.
 
 ## Demostration
 
