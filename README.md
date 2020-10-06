@@ -113,7 +113,7 @@ The project can be used as a template to start the development of a Javascript p
 
 ## Configuration
 
-To execute the project, it is necessary to use VsCode or an IDE of your preference, so that it identifies the dependencies necessary for execution in the repository. Once the project is imported, it will be possible to test its functionality in real time.
+To execute the project, it is necessary to use  VS Code or an IDE of your preference, so that it identifies the dependencies necessary for execution in the repository. Once the project is imported, it will be possible to test its functionality in real time.
 
 ## Contributions
 
