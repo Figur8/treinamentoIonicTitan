@@ -42,9 +42,9 @@ The purpose of the training is to demonstrate basic things of the ionic, such as
 
 To run the project, you will need to install the following programs:
 
-- [Ionic: a toolkit, necessary to carry out the project] (https://ionicframework.com/)
-- [Nodejs: Required to create the project] (https://nodejs.org/en/)
-- [VS Code: For project development] (https://code.visualstudio.com/)
+- [Ionic: a toolkit, necessary to carry out the project](https://ionicframework.com/)
+- [Nodejs: Required to create the project](https://nodejs.org/en/)
+- [VS Code: For project development](https://code.visualstudio.com/)
 
 ## Development
 
