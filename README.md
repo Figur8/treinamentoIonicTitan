@@ -69,6 +69,7 @@ To execute a ionic project, execute the commands below:
 
 ```
 npm install -g ionic
+ionic serve
 ```
 The "-g" command will install the global __ionic__ on your system.
 
